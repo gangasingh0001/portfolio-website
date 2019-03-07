@@ -1,0 +1,139 @@
+/* Header */
+.logo{
+    /* Flex makes the columns in a blocks and content adds in a row */
+    display: flex;
+    /* Float:left shifts the photos to left */
+    float :left;
+     
+    padding : 20px; 
+  
+}
+
+
+/* style my website logo */ 
+.logo-picture { 
+
+    border-radius: 35px;
+
+    border: 6px solid #8E8E8E;
+
+    background: blue;
+
+    width: 130px;
+   
+    height: 130px;
+
+    float: inline-start;
+
+    max-width: 100%;
+
+}
+
+
+/* My name and profession */
+.description {
+
+    width: auto;
+
+    padding: 20px;
+
+}
+
+
+/* colors the partition line after header*/
+.wallpaper-top {
+       
+    border: 10px solid #F26648;
+
+}
+
+
+/* Content */
+.image-wallpaper {
+
+    max-width: 100%;
+   
+    height: 250px;
+    
+    width: 100%;  
+
+}
+
+
+/* colored partition to show section or featured work */
+.wallpaper-bottom {
+
+    border: 5px solid #F26648;
+}
+
+
+/* unique style to my name in the rightmost upeer corner of website */
+.heading-style-text-thin{
+
+   text-align: right;
+
+   font-family: Antic;
+   
+}
+
+
+/* My profession below my website name */
+.developer-style {
+
+   text-align: right;
+
+   font-family: Lato;
+
+}
+
+.text-center {
+
+   display: flex;
+   /* Wraped content to a new column when size of screen changes*/
+   flex-wrap: wrap;
+
+   margin: 5px;
+
+}
+
+
+/* To ensure that we need not to scroll right or left to view full image */
+img {
+
+   max-width: 100%;
+
+}
+
+
+/* appear in the dialog when clicke on media project */
+.Media-logo {
+    
+    width: 70px;
+    
+    height: 70px;
+    
+    border-radius: 70px;
+   
+}
+/* Set the portfolio logo to visible dimensions in dilog box when clicked on portfolio project*/
+.portfolio-logo {
+    
+    height: 60px;
+    
+    width: 110px;
+    
+    border-radius: 30px;
+    
+}
+
+
+/* will be appeared when click on log analysis project in dialog */
+.analysis-logo {
+    
+    width: 170px;
+    
+    height: 90px;
+    
+    border-radius: 45px;
+    
+}

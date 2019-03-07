@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Viewport allows to view content in differnt screen sizes -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+        <!-- Title to be shown at browser tab screen -->
+        <title>Portfolio</title>
+
+        <!-- link to externel style sheet named styling.css -->
+        <link rel="stylesheet" href="styling.css">
+        <link href='https://fonts.googleapis.com/css?family=Antic' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <!-- Body -->  
+    <body>
+        <!-- Body Content -->
+        <div class="container">
+
+            <header class="head">
+                <div class="logo">
+                    <!-- TODO: add link to my own website -->
+                    <img src="ganga.jpg" alt="logo of my pic" class="logo-picture" >
+                </div>
+                <div class="description">
+                    <!-- TODO: add Resume -->
+                    <h1 class="heading-style-text-thin">GANGA SINGH</h1>
+                    <h3 class="developer-style">FULL-STACK DEVELOPER</h3>
+                </div>
+            </header>
+
+            <hr class="wallpaper-top">
+                <div class="wallpaper">
+                    <img src="wallpaper.jpg" class="image-wallpaper" alt="image showing context about programming">
+                    <hr class="wallpaper-bottom">
+                </div>
+                <div class="featured-work">
+                    <h2 class="text-featured-work">Featured Work</h2>
+                </div>
+
+            <!-- Section destinguish content which is main work to show on your webpage -->
+            <section class="projects">
+                <!-- TODO: add more projects -->
+                <div class="text-center">
+                    <div class="first-column">
+                        <!-- data-target is used to show description on a dialog box -->
+                        <img src="Fresh_Tomatoes.png" alt="Movie Website" class="Project-img" data-toggle="modal" data-target="#myModal">
+                        <h2 class="media-block">Media</h2>
+                    </div>
+                    <div class="second-column">
+                        <img src="Log_analysis.png" alt="Log Analysis Project" class="second-project" data-toggle="modal" data-target="#myModal2">
+                        <h2 class="Log-block">Logs Analysis</h2>
+                    </div>
+                    <div class="third-column">
+                        <img src="portfolio.png" alt="My portfolio image" class="third-project" data-toggle="modal" data-target="#myModal3">
+                        <h2 class="portfolio-block">Portfolio</h2>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Movies</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="Flat-Film-Logo-Design.jpg" alt="Movie Logo" class="Media-logo">
+                    <!-- TODO: add link to git_repository -->
+                    <p>This is latest movie trailer website. To check it out <a href="fresh_tomatoes.html" target="blank"> Click Here</a></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="modal fade" id="myModal2" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Logs Analysis</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="log-analysis-tools.png" alt="Analysis Logo" class="analysis-logo">
+                    <!-- TODO: add link to git-repository -->
+                    <p>Logs Analysis play very important role in industries.  To check which
+                       website or articles are opened, this project will tell us the views 
+                       and number of times error generated during connection is made by client
+                       to server.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+    <div class="modal fade" id="myModal3" role="dialog">
+        <div class="modal-dialog">
+    
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Portfolio</h4>
+                </div>
+                <div class="modal-body">
+                    <!-- TODO: add link to git-repository -->
+                    <img src="Portfolio-logo.jpg" alt="Portfolio Logo" class="portfolio-logo">
+                    <p>Hey! This is my Portfolio, all my projects which i have done till yet 
+                        are mentioned in it. <a href="home.html" target="blank">Click here</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    </body>
+</html>
+     
